@@ -20,7 +20,7 @@ const Contact = () => {
                 </li>
                 <li className="flex items-center gap-2">
                     <Github size={20} />
-                    <a href="https://github.com/EuclidesBaltazar" target="_blank" className="hover:underline text-gray-800">
+                    <a href="https://github.com/TheRealCocky" target="_blank" className="hover:underline text-gray-800">
                         GitHub
                     </a>
                 </li>
