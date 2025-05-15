@@ -14,7 +14,7 @@ const Contact = () => {
                 </li>
                 <li className="flex items-center gap-2">
                     <Linkedin size={20} />
-                    <a href="https://www.linkedin.com/in/euclides-baltazar-isaac/" target="_blank" className="hover:underline text-blue-600">
+                    <a href="https://www.linkedin.com/in/euclides-baltazar-isaac/" target="_blank" className="hover:underline text-gray-800">
                         LinkedIn
                     </a>
                 </li>

@@ -29,7 +29,7 @@ const Home = () => {
                         Euclides Alimador Baltazar Isaac
                     </h1>
                     <p className="text-md sm:text-lg text-gray-700">
-                        Developer MERN Stack
+                       Web Developer(MERN Stack)
                     </p>
                 </div>
 
