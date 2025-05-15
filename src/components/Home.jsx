@@ -66,7 +66,7 @@ const Home = () => {
                     </a>
 
                     <a
-                        href="https://www.linkedin.com/in/euclides-baltazar-isaac/"
+                        href="https://www.linkedin.com/in/euclides-baltazar-456331366/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-700 hover:text-blue-600 transition"
