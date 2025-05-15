@@ -20,7 +20,7 @@ const Home = () => {
             </div>
 
             {/* Texto + Botões */}
-            <div className="text-center md:text-left space-y-4">
+            <div className="text-center md:text-left space-y-4 gap-8">
                 <div>
                     <p className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800">
                         Hi! I'm
@@ -28,7 +28,7 @@ const Home = () => {
                     <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-yellow-600">
                         Euclides Alimador Baltazar Isaac
                     </h1>
-                    <p className="text-md sm:text-lg text-gray-700">
+                    <p className="text-md sm:text-lg text-gray-700 mt-3">
                        Web Developer(MERN Stack)
                     </p>
                 </div>
