@@ -11,7 +11,7 @@ const About = () => {
     };
 
     return (
-        <div className="max-w-5xl mx-auto p-6 text-gray-800 space-y-10">
+        <div className="max-w-5xl mx-auto p-6 text-gray-800 space-y-10 bg-white rounded mt-2">
             {/* Bio */}
             <section>
                 <h2 className="text-3xl font-bold mb-4">About Me</h2>
