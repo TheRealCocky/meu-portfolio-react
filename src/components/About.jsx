@@ -4,7 +4,7 @@ const About = () => {
     const skills = {
         "Full-Stack": ["MERN Stack", "React + Vite", "TailwindCSS", "Postman"],
         "Backend": ["Node.js", "Express", "REST APIs"],
-        "Databases": ["MongoDB", "SQL", "Advanced administration"],
+        "Databases": ["MongoDB", "SQL", "Advanced administration","C#"],
         "Cybersecurity": ["Nmap", "Nikto", "SSH", "TryHackMe"],
         "UI/UX": ["Figma"],
         "Project Management": ["Agile methodologies"]
