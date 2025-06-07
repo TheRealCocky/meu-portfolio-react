@@ -7,7 +7,8 @@ import Linkdin from '../fotos/linkedin.svg';
 import GithubIcon from '../fotos/4747499_github_icon.png';
 const Home = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 max-w-4xl mx-auto mt-10 bg-white rounded-xl shadow-md
+       <main className='pt-24 min-h-screen'>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 max-w-4xl mx-auto  bg-white rounded-xl shadow-md
         lg:space-x-10
         ">
             {/* Imagem */}
@@ -80,6 +81,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        </main>
     );
 };
 

@@ -2,6 +2,7 @@ import React from 'react';
 
 const Experience = () => {
     return (
+        <main className='pt-24 min-h-screen'>
         <div className="max-w-4xl mx-auto p-6 bg-white rounded mt-2">
             <h2 className="text-3xl font-bold mb-4">Experience</h2>
             <div className="mb-6">
@@ -14,6 +15,7 @@ const Experience = () => {
                 </ul>
             </div>
         </div>
+        </main>
     );
 };
 

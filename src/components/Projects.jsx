@@ -2,6 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
+        <main className='min-h-screen pt-24'> 
         <div className="max-w-5xl mx-auto p-6 ">
             <h2 className="text-3xl font-bold mb-4">Projects</h2>
 
@@ -88,6 +89,7 @@ const Projects = () => {
                 </p>
             </div>
         </div>
+        </main>
     );
 };
 

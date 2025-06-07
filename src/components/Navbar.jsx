@@ -16,7 +16,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="relative bg-gray-50 font-poppins">
+        <nav className="fixed mt-0 w-full bg-gray-50 font-poppins">
             <div className="px-10 py-5 flex justify-between items-center">
                 {/* Nome */}
                 <div className="text-black text-lg ">
