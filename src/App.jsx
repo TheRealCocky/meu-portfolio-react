@@ -6,6 +6,7 @@ import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/contact" element={<Contact />}/>
                     <Route path="/experience" element={<Experience />}/>
                     <Route path="/projects" element={<Projects />}/>
+                    <Analytics/>
                 </Routes>
             </BrowserRouter>
         </div>
