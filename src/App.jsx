@@ -6,7 +6,7 @@ import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react"; // <-- CORRETO para React
 
 function App() {
     return (
@@ -19,11 +19,12 @@ function App() {
                     <Route path="/contact" element={<Contact />}/>
                     <Route path="/experience" element={<Experience />}/>
                     <Route path="/projects" element={<Projects />}/>
-                    <Analytics/>
                 </Routes>
             </BrowserRouter>
+            <Analytics /> {/* fora do <Routes> */}
         </div>
     )
 }
 
 export default App
+
