@@ -3,6 +3,7 @@ import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 
 const Contact = () => {
     return (
+        <main className='pt-24 min-h-screen'>
         <div className="max-w-4xl mx-auto p-6">
             <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
             <ul className="space-y-4 text-gray-700">
@@ -26,6 +27,7 @@ const Contact = () => {
                 </li>
             </ul>
         </div>
+        </main>
     );
 };
 
