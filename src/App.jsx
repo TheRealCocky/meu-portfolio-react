@@ -6,7 +6,7 @@ import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
-import { Analytics } from "@vercel/analytics/react"; // <-- CORRETO para React
+import { Analytics } from "@vercel/analytics/react"// <-- CORRETO para React
 
 function App() {
     return (

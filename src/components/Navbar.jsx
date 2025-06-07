@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { HiMenuAlt3, HiOutlineX } from 'react-icons/hi'; // Ícones do Heroicons
 
 const Navbar = () => {
@@ -34,30 +34,38 @@ const Navbar = () => {
 
                 {/* Menu Desktop */}
                 <div className="hidden sm:flex gap-5">
-                    {navLinks.map((link) => (
-                        <Link
-                            key={link.to}
-                            to={link.to}
-                            className="hover:text-yellow-500 transition"
-                        >
-                            {link.label}
-                        </Link>
-                    ))}
-                </div>
+  {navLinks.map((link) => (
+    <NavLink
+      key={link.to}
+      to={link.to}
+      className={({ isActive }) =>
+        isActive
+          ? "text-yellow-500 transition"
+          : "hover:text-yellow-500 transition"
+      }
+    >
+      {link.label}
+    </NavLink>
+  ))}
+</div>
             </div>
 
             {/* Menu Mobile */}
             {isOpen && (
                 <div className="sm:hidden absolute top-full left-0 w-full bg-gray-50 flex flex-col items-center gap-4 py-4 z-50 shadow-md">
                     {navLinks.map((link) => (
-                        <Link
-                            key={link.to}
-                            to={link.to}
-                            onClick={closeMenu}
-                            className="w-full text-center hover:text-yellow-500 transition"
-                        >
-                            {link.label}
-                        </Link>
+                       <NavLink
+                       key={link.to}
+                       to={link.to}
+                       onClick={closeMenu}
+                       className={({ isActive }) =>
+                         isActive
+                           ? "w-full text-center text-yellow-500 transition"
+                           : "w-full text-center hover:text-yellow-500 transition"
+                       }
+                     >
+                       {link.label}
+                     </NavLink>
                     ))}
                 </div>
             )}
