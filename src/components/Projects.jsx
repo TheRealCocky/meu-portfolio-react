@@ -100,7 +100,7 @@ const Projects = () => {
 
             {/* Project: PalancaMedia */}
             <div className="mb-6 p-6 bg-white rounded-lg shadow-lg space-y-4">
-                <h3 className="text-xl font-semibold text-angola-black">PalancaMedia</h3>
+                <h3 className="text-2xl font-semibold text-angola-black">PalancaMedia</h3>
                 <p className="text-gray-700">
                     PalancaMedia is a university multimedia platform built with a focus on sharing and managing educational content. The application enables uploading, organizing, and accessing videos, audio files, documents, slides, books, and interactive quizzes. It features a robust CMS for content administration. This project was developed in collaboration with fellow 4th-year Computer Engineering students and is already available online.
                 </p>
