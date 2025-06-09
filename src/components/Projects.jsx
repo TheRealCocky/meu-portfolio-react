@@ -40,6 +40,64 @@ const Projects = () => {
             </div>
 
 
+{/* Project: Joamacina Comercial */}
+<div className="mb-6 p-6 bg-white rounded-lg shadow-lg space-y-4">
+  <h3 className="text-2xl font-semibold text-angola-black">Joamacina Comercial</h3>
+  <p className="text-gray-700">
+    Official website built for the Angolan company Joamacina Comercial. The platform showcases the company’s services, mission, and contact details in a modern and responsive design focused on a strong professional online presence.
+  </p>
+
+  <h4 className="text-xl font-semibold mb-2 text-angola-black">My Contribution:</h4>
+  <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
+    <li>Designed and developed the interface using React.js with Vite and Tailwind CSS.</li>
+    <li>Built a fully responsive layout optimized for mobile and desktop devices.</li>
+    <li>Added smooth animations and clean navigation between sections.</li>
+    <li>Structured the project for scalability and maintainability.</li>
+    <li>Configured the GitHub repository and deployed the site to Vercel.</li>
+  </ul>
+
+  <h4 className="text-xl font-semibold mb-2 text-angola-black">Challenges Faced:</h4>
+  <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
+    <li>Setting up SSH authentication for GitHub to enable seamless deployment.</li>
+    <li>Resolving missing module errors during Vercel build (e.g., <code>react-router-dom</code> and <code>react-icons</code>).</li>
+    <li>Ensuring consistent cross-browser layout rendering using Tailwind utility classes.</li>
+    <li>Debugging deployment errors related to Vite’s handling of dynamic imports.</li>
+  </ul>
+
+  <h4 className="text-xl font-semibold">Technologies Used:</h4>
+  <p className="text-gray-700 mb-4">
+    Frontend: React.js, Vite, Tailwind CSS <br />
+    Deployment: Vercel <br />
+    Version Control: Git & GitHub
+  </p>
+
+  <h4 className="text-xl font-semibold mb-2 text-angola-black">Links:</h4>
+  <ul className="list-disc list-inside text-gray-700 mb-4">
+    <li>
+      <a
+        href="https://github.com/TheRealCocky/JoamacinaLda"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        GitHub Repository
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://joamacinalda.vercel.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        joamacinacomercial.com
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+
             {/* Project: PalancaMedia */}
             <div className="mb-6 p-6 bg-white rounded-lg shadow-lg space-y-4">
                 <h3 className="text-xl font-semibold text-angola-black">PalancaMedia</h3>
