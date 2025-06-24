@@ -49,7 +49,7 @@ const About = () => {
 
                 <div className="mb-6">
                     <h3 className="text-xl font-semibold">Computer Engineering graduate</h3>
-                    <p className="text-sm text-gray-600">Kangonjo Polytechnic Institute(Angola) – Expected Apr 2026</p>
+                    <p className="text-sm text-gray-600">Kangonje Polytechnic Institute(Angola) – Expected Apr 2026</p>
                     <p className="mt-2 text-gray-700">
                         Currently working on the PalancaMedia platform with classmates. Completed MERN Stack training and developed impactful solutions such as ZungeuiraCRUD.
                     </p>
