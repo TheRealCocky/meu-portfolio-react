@@ -48,7 +48,7 @@ const About = () => {
                 <h2 className="text-2xl font-bold mb-4">Education</h2>
 
                 <div className="mb-6">
-                    <h3 className="text-xl font-semibold">Bachelor of Computer Engineering</h3>
+                    <h3 className="text-xl font-semibold">Computer Engineering graduate</h3>
                     <p className="text-sm text-gray-600">Kangonjo Polytechnic Institute – Expected Apr 2026</p>
                     <p className="mt-2 text-gray-700">
                         Currently working on the PalancaMedia platform with classmates. Completed MERN Stack training and developed impactful solutions such as ZungeuiraCRUD.
