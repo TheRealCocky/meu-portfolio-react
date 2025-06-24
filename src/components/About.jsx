@@ -11,8 +11,8 @@ const About = () => {
     };
 
     return (
-        <main className='pt-24 min-h-screen'>
-        <div className="max-w-5xl mx-auto p-6 text-gray-800 space-y-10 bg-white rounded mt-2">
+        <mai className='pt-24 min-h-screen'>
+        <div className="max-w-5xl mx-auto p-6 text-gray-800 space-y-10 bg-white rounded mt-2 mb-4">
             {/* Bio */}
             <section>
                 <h2 className="text-3xl font-bold mb-4">About Me</h2>
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
             </section>
         </div>
-        </main>
+        </mai>
     );
 };
 
