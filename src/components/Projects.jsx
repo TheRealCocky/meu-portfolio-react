@@ -8,28 +8,31 @@ const Projects = () => {
 
             {/* Project: AngoIA */}
             <div className="mb-8 p-6 bg-white rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold mb-2 text-angola-red">AngoIA - Angola Expert Chatbot (AI & Frontend)</h3>
+                <h3 className="text-2xl font-bold mb-2 text-angola-red">
+                    AngoIA - Angola Expert Chatbot (Fullstack AI Application)
+                </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                    An interactive and culturally enriched chatbot about Angola's history, culture, geography, and curiosities, powered by Google's Gemini AI.
+                    AngoIA is a fullstack artificial intelligence application built to answer questions about Angola with depth and cultural context. It goes beyond a traditional chatbot, offering a complete experience with features such as access plan control, automatic language moderation, favorites, interaction history, answer sharing, and user authentication. All intelligence is powered by Google’s Gemini API, with custom prompt engineering to make the AI specialized in Angolan topics.
                 </p>
 
                 <h4 className="text-xl font-semibold mb-2 text-angola-black">My Contribution:</h4>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                    Complete frontend development with React and Tailwind CSS. Integration with Google Gemini API, prompt engineering for Angola expertise, responsive optimization, and environment/deployment setup via GitHub.
+                    Full frontend development using React and Tailwind CSS. Integration with the Google Gemini API, prompt engineering focused on local context, backend architecture with Node.js and Express, implementation of authentication logic, access limit control by plan, answer feedback system, and deployment via GitHub, Vercel (frontend), and Render (backend).
                 </p>
 
                 <h4 className="text-xl font-semibold mb-2 text-angola-black">Challenges:</h4>
                 <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
-                    <li>Integration with AI API.</li>
-                    <li>Responsive and culturally relevant design.</li>
-                    <li>State management in React.</li>
+                    <li>Stable integration with an external natural language AI API.</li>
+                    <li>Creating a backend with authentication and access plan control.</li>
+                    <li>Developing a responsive interface with a user experience focused on local culture.</li>
                 </ul>
 
                 <h4 className="text-xl font-semibold mb-2 text-angola-black">Technologies:</h4>
                 <p className="text-gray-700 mb-4">
-                    Frontend: React.js, Vite.js, Tailwind CSS <br/>
-                    AI: Google Gemini API (2.0 Flash) <br/>
-                    Others: Git, GitHub, WebStorm
+                    Frontend: React.js, Vite.js, Tailwind CSS <br />
+                    Backend: Node.js, Express.js, MongoDB <br />
+                    AI: Google Gemini API (2.0 Flash) <br />
+                    Deployment: Vercel (frontend), Render (backend), GitHub
                 </p>
 
                 <h4 className="text-xl font-semibold mb-2 text-angola-black">Links:</h4>
@@ -37,7 +40,12 @@ const Projects = () => {
                     <li><a href="https://github.com/TheRealCocky/AngoIA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub Repository</a></li>
                     <li><a href="https://angoia.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">angoia.com</a></li>
                 </ul>
+
             </div>
+
+
+
+
 
 
 {/* Project: Joamacina Comercial */}

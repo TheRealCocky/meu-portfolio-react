@@ -12,13 +12,17 @@ const About = () => {
 
     return (
         <mai className='pt-24 min-h-screen'>
-        <div className="max-w-5xl mx-auto p-6 text-gray-800 space-y-10 bg-white rounded mt-2 ">
+            <div className="max-w-5xl mx-auto p-6  ">
+
+            <h2 className="text-3xl font-bold mt-24 mb-4">About Me</h2>
             {/* Bio */}
-            <section>
-                <h2 className="text-3xl font-bold mb-4">About Me</h2>
+                <div className="max-w-5xl mx-auto p-6 text-gray-800 space-y-10 bg-white rounded  mb-0 ">
+            <section className="mt-10">
+
                 <p className="mb-4">
-                    I'm a final-year Computer Engineering student passionate about building digital solutions that solve real-world problems. I’ve worked on meaningful projects such as a university social network and an application for supporting street vendors in Angola.
-                </p>
+                    I’m a final-year Computer Engineering student who builds digital products with real social impact.
+                    I believe software should solve problems that matter — that’s why I’ve developed solutions like a university social platform and a support system for informal street vendors in Angola.
+                    I'm currently building AngoIA, an AI-powered platform focused on Angolan knowledge and culture, combining artificial intelligence with local context.  </p>
                 <p>
                     My ambition is to contribute to innovative and effective technologies that improve lives. I thrive in environments that challenge me to grow technically and personally.
                 </p>
@@ -40,7 +44,7 @@ const About = () => {
             </section>
 
             {/* Education */}
-            <section className="mb-4">
+            <section className="">
                 <h2 className="text-2xl font-bold mb-4">Education</h2>
 
                 <div className="mb-6">
@@ -60,6 +64,7 @@ const About = () => {
                 </div>
             </section>
         </div>
+                </div>
         </mai>
     );
 };
