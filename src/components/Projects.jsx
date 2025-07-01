@@ -93,7 +93,7 @@ const Projects = () => {
     </li>
     <li>
       <a
-        href="https://joamacinalda.vercel.app"
+        href="https://joamacinacomercial.vercel.app"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-600 hover:underline"
