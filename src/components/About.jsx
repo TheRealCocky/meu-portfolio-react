@@ -3,8 +3,8 @@ import React from 'react';
 const About = () => {
     const skills = {
         "Full-Stack": ["MERN Stack", "React + Vite", "TailwindCSS", "Postman"],
-        "Backend": ["Node.js", "Express", "REST APIs","C#"],
-        "Databases": ["MongoDB", "SQL", "Advanced administration"],
+        "Backend": ["Node.js", "Express", "C# / ASP.NET Core", "REST APIs"],
+        "Databases": ["MongoDB", "PostgreSQL", "Advanced Administration"],
         "Cybersecurity": ["Nmap", "Nikto", "SSH", "TryHackMe"],
         "UI/UX": ["Figma"],
         "Project Management": ["Agile methodologies"]
