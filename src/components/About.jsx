@@ -7,7 +7,9 @@ const About = () => {
         "Databases": ["MongoDB", "PostgreSQL", "Advanced Administration"],
         "Cybersecurity": ["Nmap", "Nikto", "SSH", "TryHackMe"],
         "UI/UX": ["Figma"],
-        "Project Management": ["Agile methodologies"]
+        "Project Management": ["Agile methodologies"],
+        "DevOps & Deployment": ["Docker", "Docker Compose", "CI/CD", "Render", "Vercel", "GitHub Actions"]
+
     };
 
     return (
