@@ -27,7 +27,10 @@ const Home = () => {
                             <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-yellow-600">
                                 Euclides Alimador Baltazar Isaac
                             </h1>
-                            <p className="text-md sm:text-lg text-gray-700 mt-3">Web Developer (MERN Stack)</p>
+                            <p className="text-md sm:text-lg text-gray-700 mt-3">
+                                Full Stack Developer (MERN & .NET Web API)
+                            </p>
+
                         </div>
 
                         {/* Botões */}

@@ -45,6 +45,60 @@ const Projects = () => {
 
 
 
+            {/* Project: EventosParticipantes API */}
+            <div className="mb-6 p-6 bg-white rounded-lg shadow-lg space-y-4">
+                <h3 className="text-2xl font-semibold text-angola-black">EventosParticipantes API</h3>
+                <p className="text-gray-700">
+                    EventosParticipantes is a clean, fully functional RESTful API built with .NET 8 and C#. It allows for creating, reading, updating, and deleting events and participants, while managing associations between them. The API is fully documented with Swagger and was built with deployment in mind, using Docker and Render.
+                </p>
+
+                <h4 className="text-xl font-semibold mb-2 text-angola-black">My Contribution:</h4>
+                <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
+                    <li>Designed and implemented the entire Web API using .NET 8 and C#.</li>
+                    <li>Created modular routes with clear separation between events and participants.</li>
+                    <li>Configured MongoDB (Atlas) for persistence with dependency injection.</li>
+                    <li>Integrated Swagger for API documentation and testing.</li>
+                    <li>Containerized the application using Docker and Docker Compose.</li>
+                    <li>Deployed the project on Render with environment variable support.</li>
+                </ul>
+
+                <h4 className="text-xl font-semibold text-angola-black">Challenges Faced:</h4>
+                <p className="text-gray-700 mb-4">
+                    I originally intended to use PostgreSQL for this project to better reflect relational modeling. However, due to Render’s requirement for a Visa card to enable PostgreSQL services, I pivoted to MongoDB Atlas, which allowed me to deploy faster and without cost barriers. Despite the change, I maintained clean separation of concerns and followed RESTful design principles.
+                </p>
+
+                <h4 className="text-xl font-semibold">Technologies:</h4>
+                <p className="text-gray-700 mb-4">
+                    Backend: .NET 8 (C#), MongoDB Atlas<br />
+                    Tools: Swagger, Docker, Docker Compose<br />
+                    Hosting: Render<br />
+                    Others: Git, GitHub, Visual Studio Code, Postman
+                </p>
+
+                <h4 className="text-xl font-semibold mb-2 text-angola-black">Links:</h4>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                    <li>
+                        <a
+                            href="https://github.com/TheRealCocky/eventoparticipante"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:underline"
+                        >
+                            GitHub Repository
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://eventos-api-i2qr.onrender.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:underline"
+                        >
+                            Live API (Swagger UI)
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
 
 
