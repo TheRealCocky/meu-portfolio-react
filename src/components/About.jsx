@@ -2,15 +2,17 @@ import React from 'react';
 
 const About = () => {
     const skills = {
-        "Full-Stack": ["MERN Stack", "React + Vite", "TailwindCSS", "Postman"],
-        "Backend": ["Node.js", "Express", "C# / ASP.NET Core", "REST APIs"],
+        "Full-Stack": ["Next.js (React)", "MERN Stack", "TailwindCSS", "Postman"],
+        "Backend": ["Node.js", "NestJS", "Fastify", "REST APIs", "C# / ASP.NET Core"],
         "Databases": ["MongoDB", "PostgreSQL", "Advanced Administration"],
-        "Cybersecurity": ["Nmap", "Nikto", "SSH", "TryHackMe"],
         "UI/UX": ["Figma"],
         "Project Management": ["Agile methodologies"],
-        "DevOps & Deployment": ["Docker", "Docker Compose", "CI/CD", "Render", "Vercel", "GitHub Actions"]
-
+        "DevOps & Deployment": [
+            "Docker", "Docker Compose", "CI/CD",
+            "Render", "Vercel", "GitHub Actions"
+        ]
     };
+
 
     return (
         <mai className='pt-24 min-h-screen'>

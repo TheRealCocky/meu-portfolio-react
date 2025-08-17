@@ -28,8 +28,9 @@ const Home = () => {
                                 Euclides Alimador Baltazar Isaac
                             </h1>
                             <p className="text-md sm:text-lg text-gray-700 mt-3">
-                                Full Stack Developer (MERN & .NET Web API)
+                                Full Stack Developer | Next.js • React • Node.js • .NET
                             </p>
+
 
                         </div>
 
