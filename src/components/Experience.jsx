@@ -11,7 +11,7 @@ const Experience = () => {
                 <h3 className="text-xl font-semibold">Web Developer – ForLearn</h3>
                 <p className="text-sm text-gray-600">2024</p>
                 <ul className="list-disc list-inside mt-2 text-gray-700">
-                    <li>Developed interfaces using React + Vite, JavaScript, and TailwindCSS.</li>
+                    <li>Developed interfaces using React + Next.js and TailwindCSS.</li>
                     <li>Delivered production-ready interfaces for two major projects.</li>
                     <li>Completed 100% of assigned front-end tasks in agile sprints.</li>
                 </ul>

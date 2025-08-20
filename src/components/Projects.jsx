@@ -25,6 +25,8 @@ const Projects = () => {
                     <li>Stable integration with an external natural language AI API.</li>
                     <li>Creating a backend with authentication and access plan control.</li>
                     <li>Developing a responsive interface with a user experience focused on local culture.</li>
+                    <li>Migrating the entire project to a more scalable architecture with TypeScript, Next.js, and NestJS for better maintainability and performance.</li>
+
                 </ul>
 
                 <h4 className="text-xl font-semibold mb-2 text-angola-black">Technologies:</h4>

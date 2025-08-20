@@ -2,16 +2,45 @@ import React from 'react';
 
 const About = () => {
     const skills = {
-        "Full-Stack": ["Next.js (React)", "MERN Stack", "TailwindCSS", "Postman"],
-        "Backend": ["Node.js", "NestJS", "Fastify", "REST APIs", "C# / ASP.NET Core"],
-        "Databases": ["MongoDB", "PostgreSQL", "Advanced Administration"],
-        "UI/UX": ["Figma"],
-        "Project Management": ["Agile methodologies"],
+        "Frontend / Full-Stack": [
+            "Next.js (React)",
+            "TypeScript",
+            "TailwindCSS",
+            "MERN Stack"
+        ],
+        "Backend": [
+            "Node.js",
+            "NestJS",
+            "Fastify",
+            "REST APIs",
+            "C# / ASP.NET Core"
+        ],
+        "Databases": [
+            "MongoDB",
+            "PostgreSQL",
+            "Database Management & Administration"
+        ],
+        "UI/UX & Design": [
+            "Figma"
+        ],
+        "Project Management": [
+            "Agile Methodologies",
+            "Scrum / Kanban"
+        ],
         "DevOps & Deployment": [
-            "Docker", "Docker Compose", "CI/CD",
-            "Render", "Vercel", "GitHub Actions"
+            "Docker",
+            "Docker Compose",
+            "CI/CD",
+            "Vercel",
+            "Render",
+            "GitHub Actions"
+        ],
+        "Tools": [
+            "Postman",
+            "Git & GitHub"
         ]
     };
+
 
 
     return (
