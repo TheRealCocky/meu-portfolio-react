@@ -84,8 +84,11 @@ const About = () => {
                     <h3 className="text-xl font-semibold">Computer Engineering graduate</h3>
                     <p className="text-sm text-gray-600">Institute Polytechnic Katangoji(Angola) – Expected Apr 2026</p>
                     <p className="mt-2 text-gray-700">
-                        As a final-year Computer Engineering student at the Institute Polytechnic Katangoji, I am enrolled in a program strongly focused on the complete software development lifecycle — from requirements gathering and system design to implementation, testing, and maintenance. This academic foundation has guided my hands-on work in impactful projects such as PalancaMedia, a collaborative university multimedia platform with advanced content management features, and ZungeuiraCRUD, a system designed to support Angolan street vendors through data management. More recently, I developed AngoIA, a fullstack artificial intelligence application specialized in answering questions about Angola with cultural depth, powered by Google’s Gemini API and enhanced with features like authentication, plan-based access control, moderation, and user interaction history.
+                        I am a <strong>final-year Computer Engineering student</strong> at the Institute Polytechnic Katangoji, enrolled in a program that emphasizes the <strong>complete software development lifecycle</strong> — from <strong>requirements gathering</strong> and <strong>system design</strong> to <strong>implementation</strong>, <strong>testing</strong>, and <strong>maintenance</strong>.
+                        This foundation has driven my involvement in impactful projects such as <strong>PalancaMedia</strong>, a collaborative university multimedia platform with advanced CMS features, and <strong>ZungeuiraCRUD</strong>, a system designed to support Angolan street vendors through data management.
+                        More recently, I built <strong>AngoIA</strong>, a fullstack <strong>AI-powered application</strong> specialized in answering questions about Angola with cultural depth, powered by <strong>Google’s Gemini API</strong> and featuring <strong>authentication</strong>, <strong>plan-based access control</strong>, <strong>moderation</strong>, and <strong>user interaction history</strong>.
                     </p>
+
 
                 </div>
 
