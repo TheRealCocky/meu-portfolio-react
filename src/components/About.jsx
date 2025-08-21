@@ -84,8 +84,9 @@ const About = () => {
                     <h3 className="text-xl font-semibold">Computer Engineering graduate</h3>
                     <p className="text-sm text-gray-600">Institute Polytechnic Katangoji(Angola) – Expected Apr 2026</p>
                     <p className="mt-2 text-gray-700">
-                        Currently working on the PalancaMedia platform with classmates. Completed MERN Stack training and developed impactful solutions such as ZungeuiraCRUD.
+                        As a final-year Computer Engineering student at the Institute Polytechnic Katangoji, I am enrolled in a program strongly focused on the complete software development lifecycle — from requirements gathering and system design to implementation, testing, and maintenance. This academic foundation has guided my hands-on work in impactful projects such as PalancaMedia, a collaborative university multimedia platform with advanced content management features, and ZungeuiraCRUD, a system designed to support Angolan street vendors through data management. More recently, I developed AngoIA, a fullstack artificial intelligence application specialized in answering questions about Angola with cultural depth, powered by Google’s Gemini API and enhanced with features like authentication, plan-based access control, moderation, and user interaction history.
                     </p>
+
                 </div>
 
                 <div>
