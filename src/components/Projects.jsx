@@ -43,32 +43,40 @@ const Projects = () => {
                     </ul>
                 </div>
 
-                {/* Project: LinkMetrics Frontend */}
+                {/* Project: LinkMetrics (Fullstack) */}
                 <div className="mb-8 p-6 bg-white rounded-lg shadow-lg">
                     <h3 className="text-2xl font-bold mb-2 text-angola-red">
-                        LinkMetrics Frontend (Dashboard & UI for Link Analytics)
+                        LinkMetrics - Link Management & Rotation Platform (Fullstack)
                     </h3>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                        The frontend interface for LinkMetrics — a dashboard for creating, rotating, and tracking URLs with metrics. Built to interact with the backend API, display usage charts, manage links, and provide a responsive and intuitive UI.
+                        LinkMetrics is a fullstack application designed for managing, tracking, and rotating links dynamically.
+                        It provides an intuitive dashboard for administrators and ensures high availability of links in production.
+                        The platform is scalable, secure, and deployed in a cloud environment.
                     </p>
 
                     <h4 className="text-xl font-semibold mb-2 text-angola-black">My Contribution:</h4>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                        Developed the entire frontend using React (Next.js / App Router) and Tailwind CSS. Integrated API calls, managed authentication flow, built dynamic charts using Recharts, implemented copy/rotate/delete actions, sidebar navigation, and state management for UI logic.
+                        I developed both the frontend and backend of the platform:
+                        <br /> - Designed the React.js interface with TailwindCSS and shadcn/ui for modern UX.
+                        <br /> - Implemented state management and API integration for real-time link actions.
+                        <br /> - Built the backend with NestJS, Prisma, and MongoDB, following clean architecture principles.
+                        <br /> - Configured CORS, authentication, and link rotation logic.
+                        <br /> - Deployed the frontend on Vercel and backend on Render.
                     </p>
 
                     <h4 className="text-xl font-semibold mb-2 text-angola-black">Challenges:</h4>
                     <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
-                        <li>Implementing dynamic routing and client-only hooks (useSearchParams) in Next.js.</li>
-                        <li>Ensuring CORS and environment variable handling for production deployment.</li>
-                        <li>Keeping UI responsive across mobile and desktop layouts.</li>
-                        <li>Synchronizing real-time metrics updates without degrading performance.</li>
+                        <li>Managing CORS between Vercel (frontend) and Render (backend).</li>
+                        <li>Handling API routes dynamically in production (avoiding localhost references).</li>
+                        <li>Optimizing Prisma with MongoDB for high-performance queries.</li>
+                        <li>Ensuring zero-downtime deployment and scalability.</li>
                     </ul>
 
                     <h4 className="text-xl font-semibold mb-2 text-angola-black">Technologies:</h4>
                     <p className="text-gray-700 mb-4">
-                        Frontend: Next.js, React, Tailwind CSS, Recharts, Lucide Icons <br />
-                        Tools: Vercel (hosting), Environment variables, localStorage for token handling
+                        Frontend: React.js, Tailwind CSS, shadcn/ui, Vercel <br />
+                        Backend: NestJS, Prisma, MongoDB, Render <br />
+                        Tools: GitHub, Postman, Docker
                     </p>
 
                     <h4 className="text-xl font-semibold mb-2 text-angola-black">Links:</h4>
@@ -80,7 +88,17 @@ const Projects = () => {
                                 rel="noopener noreferrer"
                                 className="text-blue-600 hover:underline"
                             >
-                                GitHub Repository
+                                Frontend Repository
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/TheRealCocky/LinkMetrics-backend"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:underline"
+                            >
+                                Backend Repository
                             </a>
                         </li>
                         <li>
@@ -90,69 +108,12 @@ const Projects = () => {
                                 rel="noopener noreferrer"
                                 className="text-blue-600 hover:underline"
                             >
-                                Live Demo
+                                Live Application
                             </a>
                         </li>
                     </ul>
                 </div>
 
-                {/* Project: LinkMetrics Backend */}
-                <div className="mb-8 p-6 bg-white rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-bold mb-2 text-angola-red">
-                        LinkMetrics Backend (API, Rotation & Metrics)
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed mb-4">
-                        Backend service for LinkMetrics — implements authentication (JWT), link creation and rotation logic, metrics collection and history, and secure REST endpoints consumed by the frontend. Built with NestJS + Prisma and MongoDB, optimized for production deployment on Render.
-                    </p>
-
-                    <h4 className="text-xl font-semibold mb-2 text-angola-black">My Contribution:</h4>
-                    <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
-                        <li>Designed and implemented REST API endpoints (auth, links, metrics, history).</li>
-                        <li>Implemented link rotation logic with weighted distribution and tracking.</li>
-                        <li>Integrated Prisma with MongoDB Atlas for data modeling and queries.</li>
-                        <li>Added JWT-based authentication and token handling.</li>
-                        <li>Configured CORS, environment variables and production-ready deployment on Render.</li>
-                        <li>Wrote automated scripts and Prisma migrations to keep schema consistent.</li>
-                    </ul>
-
-                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Challenges:</h4>
-                    <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
-                        <li>Handling CORS correctly across environments (local / Vercel / Render).</li>
-                        <li>Designing efficient metrics storage and retrieval for large numbers of clicks.</li>
-                        <li>Ensuring secure token issuance and validation (JWT configuration).</li>
-                        <li>Deploying with environment-specific configuration and secrets management.</li>
-                    </ul>
-
-                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Technologies:</h4>
-                    <p className="text-gray-700 mb-4">
-                        Backend: NestJS, Prisma, MongoDB Atlas <br />
-                        Tools: Render (hosting), JWT, Node.js, TypeScript, Prisma Studio
-                    </p>
-
-                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Links:</h4>
-                    <ul className="list-disc list-inside text-gray-700 mb-4">
-                        <li>
-                            <a
-                                href="https://github.com/TheRealCocky/LinkMetrics-backend"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-600 hover:underline"
-                            >
-                                GitHub Repository
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://linkmetrics-backend.onrender.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-600 hover:underline"
-                            >
-                                Live API
-                            </a>
-                        </li>
-                    </ul>
-                </div>
 
                 {/* Project: EventosParticipantes API */}
                 <div className="mb-6 p-6 bg-white rounded-lg shadow-lg space-y-4">
