@@ -43,6 +43,80 @@ const Projects = () => {
                     </ul>
                 </div>
 
+                {/* Project: LeilaoApp (Fullstack Real-Time Auction Platform) */}
+                <div className="mb-8 p-6 bg-white rounded-lg shadow-lg">
+                    <h3 className="text-2xl font-bold mb-2 text-angola-red">
+                        LeilaoApp - Real-Time Auction Platform (Fullstack)
+                    </h3>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                        LeilaoApp is a fullstack real-time auction platform that allows users to create, manage, and participate in live auctions with instant updates.
+                        It was designed to simulate a real marketplace where users can bid on products dynamically, with notifications, profiles, and authentication fully integrated.
+                        The application is fully responsive, secure, and optimized for both mobile and desktop experiences.
+                    </p>
+
+                    <h4 className="text-xl font-semibold mb-2 text-angola-black">My Contribution:</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                        I developed the entire platform from the ground up:
+                        <br /> - Built the frontend with Next.js, TailwindCSS, and shadcn/ui for a clean and responsive user interface.
+                        <br /> - Implemented real-time bidding using <strong>Socket.IO</strong> for instant bid synchronization across all users.
+                        <br /> - Designed the backend with NestJS, Prisma, and MongoDB, including all auction, user, and notification logic.
+                        <br /> - Integrated authentication, JWT-based sessions, and CORS between Render and Vercel.
+                        <br /> - Deployed the backend on Render and the frontend on Vercel, ensuring smooth real-time communication in production.
+                    </p>
+
+                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Challenges:</h4>
+                    <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
+                        <li>Managing real-time bid synchronization using Socket.IO.</li>
+                        <li>Ensuring stable WebSocket connections between Render and Vercel in production.</li>
+                        <li>Optimizing MongoDB and Prisma relations for performance with complex auction data.</li>
+                        <li>Handling CORS and deployment configurations for seamless frontend-backend communication.</li>
+                        <li>Building a fully responsive UI that adapts to all screen sizes.</li>
+                    </ul>
+
+                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Technologies:</h4>
+                    <p className="text-gray-700 mb-4">
+                        Frontend: Next.js 15, Tailwind CSS, shadcn/ui, Socket.IO Client, Vercel <br />
+                        Backend: NestJS, Prisma, MongoDB, Socket.IO, Render <br />
+                        Tools: GitHub, Postman, Docker, TypeScript
+                    </p>
+
+                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Links:</h4>
+                    <ul className="list-disc list-inside text-gray-700 mb-4">
+                        <li>
+                            <a
+                                href="https://github.com/TheRealCocky/Leilao-client"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:underline"
+                            >
+                                Frontend Repository
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/TheRealCocky/Leilao-server"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:underline"
+                            >
+                                Backend Repository
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://leilaoapp.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:underline"
+                            >
+                                Live Application
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
                 {/* Project: LinkMetrics (Fullstack) */}
                 <div className="mb-8 p-6 bg-white rounded-lg shadow-lg">
                     <h3 className="text-2xl font-bold mb-2 text-angola-red">

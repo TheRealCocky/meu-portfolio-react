@@ -2,7 +2,7 @@ import React from 'react';
 import Cocky from '../fotos/cocky.jpeg';
 import { Download, Mail } from 'lucide-react';
 import { Github, Linkedin } from 'lucide-react';
-import PDF from '../fotos/RESUME.pdf';
+import PDF from '../fotos/FAVONE-ENG.pdf';
 import Linkdin from '../fotos/linkedin.svg';
 import GithubIcon from '../fotos/4747499_github_icon.png';
 
