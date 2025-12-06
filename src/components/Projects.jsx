@@ -117,6 +117,51 @@ const Projects = () => {
 
 
 
+                {/* Project: StreamSentra */}
+                <div className="mb-8 p-6 bg-white rounded-lg shadow-lg">
+                    <h3 className="text-2xl font-bold mb-2 text-angola-red">
+                        StreamSentra - Video Streaming & Management Platform (Fullstack)
+                    </h3>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                        StreamSentra is a fullstack video streaming platform that allows users to securely upload, manage, and watch their own videos. It integrates Cloudinary for optimized video storage and streaming, Kafka for asynchronous video processing, and ensures each user only accesses their own content.
+                    </p>
+
+                    <h4 className="text-xl font-semibold mb-2 text-angola-black">My Contribution:</h4>
+                    <p className="text-gray-700 leading-relaxed mb-4">
+                        I developed both the frontend and backend:
+                        <br />- Backend built with NestJS, Prisma, MongoDB, Kafka, and Cloudinary.
+                        <br />- JWT-based authentication for secure user management.
+                        <br />- Video upload, storage, and processing pipeline with Kafka events.
+                        <br />- Frontend built with Next.js, TailwindCSS, and shadcn/ui for a responsive UI.
+                        <br />- Implemented video filtering so users see only their own videos.
+                        <br />- Deployment setup on Vercel (frontend) and Render (backend).
+                    </p>
+
+                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Challenges:</h4>
+                    <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
+                        <li>Integrating Cloudinary for large video uploads and optimized streaming.</li>
+                        <li>Setting up Kafka to handle asynchronous video processing and notifications.</li>
+                        <li>Ensuring strict access control so users only see their own videos.</li>
+                        <li>Deploying frontend and backend separately while maintaining secure and performant communication.</li>
+                    </ul>
+
+                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Technologies:</h4>
+                    <p className="text-gray-700 mb-4">
+                        Frontend: Next.js, React, Tailwind CSS, shadcn/ui, Vercel <br />
+                        Backend: NestJS, Prisma, MongoDB, Kafka, Cloudinary, Render <br />
+                        Auth & Security: JWT, Bcrypt <br />
+                        Tools: GitHub, Postman, Docker, TypeScript
+                    </p>
+
+                    <h4 className="text-xl font-semibold mb-2 text-angola-black">Links:</h4>
+                    <ul className="list-disc list-inside text-gray-700 mb-4">
+                        <li><a href="https://streamsentra.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Live Application</a></li>
+                        <li><a href="https://github.com/TheRealCocky/stremaforge-client" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Frontend Repository</a></li>
+                        <li><a href="https://github.com/TheRealCocky/stremaforge-server" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Backend Repository</a></li>
+                    </ul>
+                </div>
+
+
                 {/* Project: LinkMetrics (Fullstack) */}
                 <div className="mb-8 p-6 bg-white rounded-lg shadow-lg">
                     <h3 className="text-2xl font-bold mb-2 text-angola-red">
