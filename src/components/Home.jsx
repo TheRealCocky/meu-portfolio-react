@@ -2,7 +2,7 @@ import React from 'react';
 import Cocky from '../fotos/cocky.jpeg';
 import { Download, Mail } from 'lucide-react';
 import { Github, Linkedin } from 'lucide-react';
-import PDF from '../fotos/FAVONE-ENG.pdf';
+import PDF from '../fotos/NEW RESUME FAV ONE.pdf';
 import Linkdin from '../fotos/linkedin.svg';
 import GithubIcon from '../fotos/4747499_github_icon.png';
 
@@ -28,7 +28,7 @@ const Home = () => {
                                 Euclides Alimador Baltazar Isaac
                             </h1>
                             <p className="text-md sm:text-lg text-gray-700 mt-3">
-                                Full-Stack Developer | React • Next.js • Node.js • NestJS • TypeScript • MongoDB • PostgreSQL
+                                Full-Stack Developer | React • Next.js • Node.js • NestJS • TypeScript • MongoDB • PostgreSQL• AWS
                             </p>
 
 

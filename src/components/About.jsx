@@ -31,6 +31,7 @@ const About = () => {
             "Docker",
             "Docker Compose",
             "CI/CD",
+            "AWS",
             "Vercel",
             "Render",
             "GitHub Actions"
@@ -53,11 +54,10 @@ const About = () => {
             <section className="mt-10">
 
                 <p className="mb-4">
-                    I’m a final-year Computer Engineering student who builds digital products with real social impact.
-                    I believe software should solve problems that matter — that’s why I’ve developed solutions like a university social platform and a support system for informal street vendors in Angola.
-                    I'm currently building AngoIA, an AI-powered platform focused on Angolan knowledge and culture, combining artificial intelligence with local context.  </p>
+                    I am a final-year Computer Engineering student at ISP Katangonji, specializing in full-stack development with a focus on building digital products with real social impact. Currently, I am developing <a className="underline hover:text-yellow-500 transition" target="_blank" rel="noopener noreferrer"
+                    href="https://nonhande.vercel.app">Nonhande</a>, a digital preservation platform for the Nhaneca-Humbe language, where I apply Next.js, NestJS, and MongoDB to transform complex ethnolinguistic data into scalable and intuitive digital experiences.  </p>
                 <p>
-                    My ambition is to contribute to innovative and effective technologies that improve lives. I thrive in environments that challenge me to grow technically and personally.
+                    My ambition is to bridge the gap between advanced technology and local context, integrating artificial intelligence through projects like AngoIA to solve problems that matter. I thrive in environments that challenge me to grow technically—applying clean code and architectural best practices—while delivering innovative solutions that improve lives
                 </p>
             </section>
 
