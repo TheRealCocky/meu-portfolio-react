@@ -38,12 +38,13 @@ const Home = () => {
                         {/* Botões */}
                         <div className="flex flex-wrap justify-center md:justify-start gap-3">
                             <a
-                                href={PDF}
+                                href="src/fotos/new-fav-one-eng.pdf"
                                 download
                                 className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition"
                             >
-                                <Download size={18} /> Download CV
+                                Download CV
                             </a>
+
                             <a
                                 href="mailto:euclidesbaltazar2002@icloud.com"
                                 className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700 transition"
