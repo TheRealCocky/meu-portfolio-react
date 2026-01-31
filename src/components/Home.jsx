@@ -2,7 +2,7 @@ import React from 'react';
 import Cocky from '../fotos/cocky.jpeg';
 import { Download, Mail } from 'lucide-react';
 import { Github, Linkedin } from 'lucide-react';
-import PDF from '../fotos/new-fav-one-eng.pdf';
+import PDF from 'public/fotos/new-fav-one-eng.pdf';
 import Linkdin from '../fotos/linkedin.svg';
 import GithubIcon from '../fotos/4747499_github_icon.png';
 
@@ -38,12 +38,13 @@ const Home = () => {
                         {/* Botões */}
                         <div className="flex flex-wrap justify-center md:justify-start gap-3">
                             <a
-                                href="src/fotos/new-fav-one-eng.pdf"
+                                href="/fotos/new-fav-one-eng.pdf"
                                 download
                                 className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition"
                             >
                                 Download CV
                             </a>
+
 
                             <a
                                 href="mailto:euclidesbaltazar2002@icloud.com"
